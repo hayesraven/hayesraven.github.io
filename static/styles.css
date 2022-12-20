@@ -3,6 +3,7 @@
 * {
     max-width: 1000px;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 #header {
@@ -10,8 +11,17 @@
     width: 100%;
     background-color: darkslategray;
     position: fixed;
-    font-family: 'Raleway', sans-serif;
     z-index: 1;
+}
+
+.spacer {
+    width: 100%;
+    height: 150px;
+}
+
+#content {
+    width: 100%;
+    height: 800px;
 }
 
 #name {
@@ -20,18 +30,48 @@
     color: azure;
 }
 
-#title {
-    margin: 10px;
-    color: black;
-    font-weight: bold;
+.resume {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
 }
 
-#left {
-    height: 1000px;
+.resume .resume_left {
     width: 300px;
-    background-color:rgb(232, 232, 232) ;
-    float: left;
-    position: fixed;
+    background-color: lightgrey;
+    height: 800px;
+    text-align: right;
+    padding: 10px;
+}
+
+.resume .resume_right {
+    height: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.title {
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.subtitle {
+    margin: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.info {
+    margin: 8px;
+    color: black;
+    font-size: 16px;
 }
 
 .right {
